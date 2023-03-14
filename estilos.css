@@ -1,0 +1,684 @@
+/* Encabezado */
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color:#ececec;
+}
+
+.encabezado {
+    position: relative;
+    width: 89%;
+    height: 60px ;
+    padding: 20px 5.5%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado_1{
+    display: flex;
+    max-height: 100%;
+    display: inline;
+    width: auto;
+}
+
+.logo {
+    position: relative ;
+    float: left;
+    width: 220px;
+    height: auto;
+}
+
+/* Buscador */
+
+#buscador {
+    position: relative;
+    float: left;
+    width: 406px;
+    height: auto;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+#input-buscador {
+    position: relative;
+    float: right;
+    width: 300px;
+    min-width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    border: none;
+    padding: 0% 15px;
+    float: left;
+}
+
+#boton-buscador {
+    width: 72px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    float: left;
+    border: 0px;
+    margin: 5px 0;
+    background-color: #ffffff00;
+}
+
+.borde-boton-buscar{
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: auto;
+    height: 40px;
+    float: right;
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0;
+}
+
+.lupa {
+    width: 100%;
+    height: 35px;
+}
+
+/* Encabezado */
+
+.opciones-encabezado {
+    position: relative;
+    float: right;
+    width: auto;
+    min-width: 150px;
+    height: 100%;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    margin-left: 15px;
+}
+
+.iconos-encabezado {
+    width: 38px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.content-textos-encabezado {
+    position: relative;
+    float: left;
+    max-width: 100%;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.titulo-encabezado {
+    position: relative;
+    width: auto;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    float: left;
+}
+
+.subtitulo-encabezado {
+    position: relative;
+    width: auto;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+/* Barra */
+
+.barra {
+    position: relative;
+    display: flex;
+    width: 86%;
+    height: auto;
+    background-color: #000000;
+    align-items: center;
+    padding: 4px 2%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/* Categorias */
+
+#lista-categorias {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#lista-categorias li {
+    display: block;
+    background-color: #ececec;
+    padding: 12px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border: none;
+}
+
+#boton-categorias {
+    position: relative;
+    display: inline-flex;
+    padding: 8px 15px;
+    background-color: #353535;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+
+/* main */
+
+.main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:#ececec;
+    padding-top: 0.5%;
+}
+
+.slider {
+  width: 90%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 15px;
+  display: flex;
+}
+
+.slider-imagen {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out;
+  object-fit: cover;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.slider-imagen2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    border-radius: 15px;
+    opacity: 0;
+  }
+
+.slider-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Ofertas */
+
+.boton {
+    position: relative;
+    padding: 8px 15px;
+    background-color: #353535;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    float: right;
+    margin: 0 10px;
+    display: flex;
+}
+
+.seccion {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding: 4% 5%;
+}
+
+.seccion2 {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding: 0% 5%;
+    padding-top: 4%;
+}
+
+.seccionx2 {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding: 4% 5%;
+    display: flex;
+}
+
+.seccion-seccion1 {
+    position: relative;
+    width: 49%;
+    margin-right: 1%;
+    height: auto;
+}
+
+.seccion-seccion2 {
+    position: relative;
+    width: 49%;
+    margin-left: 1%;
+    height: auto;
+}
+
+.titulo-seccion {
+    position: relative;
+    width: auto;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.inline {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-text {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.inline-barra {
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.icono {
+    width: auto;
+    height: 15px;
+    margin-left: 8px;
+    box-sizing: border-box;
+}
+
+.iconoIZ {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    box-sizing: border-box;
+}
+
+/* Servicio tecnico */
+
+.seccion-servicio-tecnico {
+    position: relative;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    background-color: #000000;
+    margin: 0% auto;
+    border-radius: 15px;
+}
+
+.fondo-servicio-tecnico {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.38;
+    background-position: center;
+    background-size: cover ;
+    background-image: url(https://media.discordapp.net/attachments/1070541837221232760/1080903249453912174/Servicio-Tecnico-Profesional-en-Cajamarca.png?width=895&height=671);
+    border-radius: 15px;
+}
+
+.center {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding: 5%;
+}
+
+.boton_solicitar_servicio_tecnico {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #464646;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.T1_Servicio {
+    width: auto;
+    height: auto;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.T2_Servicio {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-empresa {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.banner-empresa-vertical {
+    position: relative;
+    float: left;
+    width: 48%;
+    height: auto;
+    display: block;
+    margin-right: 4%;
+    margin-top: 2.3%;
+    border-radius: 15px;
+}
+
+.banner-empresa-horizontal {
+    position: relative;
+    float: left;
+    width: 48%;
+    height: auto;
+    display: block;
+    margin-top: 2.3%;
+    border-radius: 15px;
+}
+
+/* footer */
+
+.footer {
+    width: 90%;
+    height: auto;
+    padding: 0 5%;
+    padding-bottom: 2%;
+    background-color: #ececec;
+}
+
+.promociones {
+    position: relative;
+    width: 90%;
+    height: 75px;
+    padding: 0% 5%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.info {
+    position: relative;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.pie-pag {
+    width: 90%;
+    height: auto;
+    padding: 0 5%;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.content-producto {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0% auto;
+    margin-top: 20px;
+}
+
+.content-section {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 0 30px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.producto {
+    min-width: 98px;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    width: 15.66%;
+    height: auto;
+    margin: 0.5%;
+    min-height: 376px;
+    border-radius: 15px;
+}
+
+.producto2 {
+    min-width: 98px;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    width: 31%;
+    height: auto;
+    margin: 1.1%;
+    border-radius: 15px;
+}
+
+.content-icono-producto {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin: 5% 7%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.icono-producto {
+    width: 22%;
+    height: auto;
+    position: relative;
+
+    /*box-shadow: 3px 3px 10px #000000;*/
+}
+
+.icono-producto-car {
+    width: 40%;
+    height: auto;
+    position: relative;
+
+    /*box-shadow: 3px 3px 10px #000000;*/
+}
+
+.titulo-producto {
+    position: relative;
+    width: auto;
+    min-height: 68px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    float: left;
+    margin: 4% 7%;
+}
+
+.precio {
+    position: relative;
+    width: auto;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: left;
+    margin: 0% 7%;
+}
+
+.precio-antes {
+    position: relative;
+    width: auto;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    float: left;
+    margin: 0% 7%;
+    margin-bottom: 4px;
+}
+
+.imagen-producto {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.icono-footer {
+    position: relative;
+    float: left;
+    width: auto;
+    height: 28px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.icono-redes-footer {
+    position: relative;
+    float: left;
+    width: auto;
+    height: 35px;
+    box-sizing: border-box;
+    margin-right: 23px;
+}
+
+.texto-footer-blanco {
+    position: relative;
+    width: auto;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: normal;
+    float: left;
+    margin: auto 0;
+}
+
+.boton-correo {
+    position: relative;
+    width: 105px;
+    text-align: center;
+    height: 34px;
+    float: right;
+    border-radius: 15px;
+    background-color: #000000;
+    margin: 5px;
+    color: #ffffff;
+}
+
+.borde-boton-correo{
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: auto;
+    height: 40px;
+    float: right;
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0;
+}
+
+.correo {
+    position: relative;
+    float: right;
+    width: 300px;
+    min-width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    border: none;
+    padding: 0% 15px;
+    float: left;
+}
+
+.icono-tiendas {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 6px;
+    box-sizing: border-box;
+}
+
+.info-text {
+    position: relative;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.info-text-2 {
+    position: relative;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.lista-info {
+    padding: 0 0;
+    list-style-type:none;
+    margin: 40px 0;
+}
+
+.copy {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.pie-pag-1 {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
