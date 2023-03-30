@@ -96,6 +96,7 @@
     align-items: center;
     display: flex;
     margin-left: 15px;
+    border: none;
 }
 
 .iconos-encabezado {
@@ -254,6 +255,7 @@
     float: right;
     margin: 0 10px;
     display: flex;
+    border: none;
 }
 
 .seccion {
